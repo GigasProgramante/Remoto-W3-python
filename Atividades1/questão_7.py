@@ -31,5 +31,4 @@ else:
     else:
         meio = b
         menor = a
-
 print("Valores em ordem decrescente:", maior, meio, menor)
