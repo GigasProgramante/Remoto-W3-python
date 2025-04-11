@@ -25,3 +25,29 @@
 #Maior ou igual a 40 | Obesidade grau III (mórbida)
 #D. Exibir o IMC calculado e a condição correspondente.
 #E. Garantir que o usuário digite um sexo válido (M ou F).
+
+sexo = ""
+
+while sexo not in ["F", "f", "M", "m"]:
+    sexo = input(str("Escolha o sexo, M para masculino, F para feminino: "))
+
+print("Insira seu peso: ")
+peso = float(input())
+
+print("Insira sua altura: ")
+altura = float(input())
+
+IMC = peso / (altura*2)
+
+if IMC <= 18.6 :
+    print("Abaixo do peso ideal! \nIMC: ", IMC)
+elif IMC >= 18.6 and IMC <= 24.9:
+    print("Peso ideal (parabéns) \nIMC: ", IMC)
+elif IMC >= 25.0 and IMC <= 29.9:
+    print("levemente acima do peso \nIMC: ", IMC)
+elif IMC >= 30.0 and IMC <= 34.9:
+    print("Obesidade grau I. \nIMC: ", IMC)
+elif IMC >= 35.0 and IMC <= 39.9:
+    print("Obesidade grau II (severa) \nIMC: ", IMC)
+elif IMC > 40:
+    print("Obesidade grau III (mórbida) \nIMC: ", IMC)
