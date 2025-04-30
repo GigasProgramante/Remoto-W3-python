@@ -3,3 +3,11 @@
 imprima na tela em quantos anos serão necessários para que Francisco seja
 maior que Sara."""
 
+francisco = 150  # altura em cm
+sara = 110  # altura em cm
+anos = 0
+while francisco >= sara:
+    francisco += 2
+    sara += 3
+    anos += 1
+print(f"Francisco será maior que Sara em {anos} anos.")
