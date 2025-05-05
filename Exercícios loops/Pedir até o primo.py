@@ -19,3 +19,5 @@ while True:
         break
     else:
         print(f"{num} não é um número primo. Tente novamente.")
+
+#Usei IA, preciso refazer
