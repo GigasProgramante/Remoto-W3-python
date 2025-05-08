@@ -8,7 +8,6 @@ while inserir:
     else:
         nums.append(float(nota))  # Adiciona a nota convertida para float na lista
 
-# Calcula a média se houver elementos na lista
 if len(nums) > 0:
     media = sum(nums) / len(nums)
     print(f"A média final é de: {media}")
