@@ -1,5 +1,7 @@
 '''Solicite um número N e imprima todos os números primos até esse valor.'''
 
+import math
+
 def eh_primo(n):
     if n < 2:
         return False
@@ -7,8 +9,6 @@ def eh_primo(n):
         if n % i == 0:
             return False
     return True
-
-import math
 
 num = int(input("Escolha um número: "))
 
