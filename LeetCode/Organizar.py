@@ -12,3 +12,5 @@ for i in range(tamanho):
 for i in range(tamanho):
     nums.append(2)
 print(nums)
+
+## incompleto
